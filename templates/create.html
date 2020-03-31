@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Create</title>
 </head>
 <body>
     
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Hello World!</h1>
+                <h1>CREATE</h1>
+                <p>A new document has been created</p>
+                <li>Title: {{ document.title }}</li>
+                <li>Release Year: {{ document.release_year }}</li>
+                <li>Synopsis: {{ document.synopsis }}</li>
             </div>
         </div>
     </div>
