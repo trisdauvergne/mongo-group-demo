@@ -9,6 +9,7 @@ app = Flask(__name__)
 
 
 MONGO_URI = os.environ.get("MONGO_URI")
+print(os.environ.get("MONGO_URI"))
 
 
 @app.route("/")
